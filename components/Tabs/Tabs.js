@@ -42,7 +42,7 @@ class TabItem {
   selectTab() {
     // Select all ".tabs-item" elements from the DOM
     // const items;
-    const active = document.querySelectorAll('.tabs-link');
+    const active = document.querySelectorAll('.tabs-item');
     // Remove the class "tabs-item-selected" from each element
     active.forEach(tab => tab.classList.remove('tabs-item-selected'));
 
